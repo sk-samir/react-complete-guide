@@ -2,6 +2,8 @@ import React from 'react';
 
 import './ExpensesFilter.css';
 
+console.log ('In ExpensesFilter.js');
+
 const ExpensesFilter = (props) => {
   const dropdownChangeHandler = (event) => {
     props.onChangeFilter(event.target.value);

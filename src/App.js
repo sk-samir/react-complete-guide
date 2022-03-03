@@ -4,6 +4,8 @@ import Expenses from "./components/Expenses/Expenses";
 
 import NewExpense from "./components/NewExpense/NewExpense";
 
+console.log ('In App.js');
+
 const DUMMY_EXPENSES = [
   {
     id: "e1",
